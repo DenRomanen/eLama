@@ -1,7 +1,7 @@
 .analytics {
   margin: 182px auto 180px auto;
 
-  width: 1160px;
+  max-width: 1160px;
 
   display: flex;
   justify-content: space-between;
@@ -11,7 +11,7 @@
   height: 350px;
 }
 .analytics__container {
-  width: 559px;
+  max-width: 559px;
 
   display: flex;
   flex-direction: column;
@@ -47,4 +47,11 @@
   color: #039be6;
 
   text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .analytics__container-title {
+    font-size: 26px;
+    line-height: 40px;
+  }
 }

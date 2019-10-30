@@ -34,7 +34,7 @@
   margin: 0 20px 210px -140px;
 }
 .stock__text {
-  width: 285px;
+  max-width: 285px;
 
   font-family: "Museo Sans Cyrl 500";
   font-size: 16px;
