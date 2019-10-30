@@ -1,0 +1,56 @@
+.footer__contacts {
+  margin: 41px auto 0 auto;
+  width: 1160px;
+
+  display: flex;
+  flex-direction: column;
+}
+.footer__contacts-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__contacts-links-city {
+  display: flex;
+  flex-direction: row;
+}
+.footer__contacts-links_home {
+  width: 50px;
+  height: 50px;
+
+  background-image: url("../../../../images/logo_color.png");
+}
+.footer__contacts-links_moskva {
+  margin: 0 0 0 50px;
+  width: 150px;
+
+  display: flex;
+  flex-direction: column;
+}
+.footer__contacts-links_moskva-tel {
+  margin: 0;
+  font-size: 16px;
+  line-height: 28px;
+
+  text-decoration: none;
+  color: #f4f4f4;
+}
+.footer__contacts-links_moskva-name {
+  margin: 0;
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #828282;
+}
+.footer__contacts-links_email {
+  font-size: 14px;
+  line-height: 26px;
+  text-decoration: none;
+
+  color: #00b3ff;
+}
+
+.footer__contacts-links_email:hover {
+  color: #79d3fa;
+}

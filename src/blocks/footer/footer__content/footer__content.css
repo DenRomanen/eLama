@@ -1,0 +1,59 @@
+.footer__content {
+  margin: 0 auto;
+
+  width: 1160px;
+  height: 140px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid rgba(196, 196, 196, 0.1);
+}
+.footer__content-links {
+  display: flex;
+}
+.footer__content-link {
+  margin-left: 96px;
+
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #039be6;
+
+  text-decoration: none;
+}
+.footer__content-link:hover {
+  color: #74c3eb;
+}
+.footer__content-link:first-child {
+  margin: 0;
+}
+.footer__content-help {
+  margin-right: 190px;
+
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #039be6;
+
+  text-decoration: none;
+}
+.footer__content-help:after {
+  content: "";
+  position: relative;
+  top: -0.5rem;
+  right: -0.35rem;
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+
+  background-image: url("../../../../images/Rectangle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.footer__content-help:hover {
+  color: #74c3eb;
+}

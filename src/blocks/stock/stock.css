@@ -1,0 +1,48 @@
+.stock {
+  height: 435px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #f2f3f8;
+}
+.stock__body {
+  margin: 0 auto;
+
+  width: 1160px;
+  height: 300px;
+
+  display: flex;
+  align-items: center;
+}
+.stock__container {
+  width: 365px;
+
+  display: flex;
+  flex-direction: column;
+}
+.stock__container-title {
+  margin: 0px 0 40px 0;
+
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.35px;
+
+  color: #1d1d39;
+}
+.stock__image-arrow {
+  margin: 0 20px 210px -140px;
+}
+.stock__text {
+  width: 285px;
+
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #333333;
+}
+.stock__text:last-child {
+  margin-left: 42px;
+  width: 240px;
+}

@@ -1,0 +1,22 @@
+.footer__contacts-data {
+  margin: 35px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__contacts-data {
+  font-size: 13px;
+  line-height: 24px;
+
+  color: #484b50;
+}
+.footer__contacts-data_link {
+  font-size: 13px;
+  line-height: 24px;
+  text-decoration: none;
+
+  color: #00b3ff;
+}
+.footer__contacts-data_link:hover {
+  color: #79d3fa;
+}

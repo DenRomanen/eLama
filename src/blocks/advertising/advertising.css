@@ -1,0 +1,45 @@
+.advertising {
+  margin: -117px 0 0 0;
+}
+.advertising__body {
+  margin: 0 auto;
+  width: 1160px;
+
+  display: flex;
+  flex-direction: column;
+}
+.advertising__title {
+  margin-top: 295px;
+
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.45px;
+
+  color: #1d1d39;
+}
+.advertising__content {
+  margin: 57px 0 0 0;
+
+  display: flex;
+}
+.advertising__content-paragraph {
+  width: 340px;
+}
+.advertising__content-paragraph:nth-child(2) {
+  margin: 0 60px;
+}
+
+.advertising__content-paragraph_subtitle {
+  margin: 30px 0 0 0;
+
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #1d1d39;
+}
+.advertising__content-paragraph_text {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  line-height: 26px;
+  color: #333333;
+}
