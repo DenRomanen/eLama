@@ -57,3 +57,8 @@
 .footer__content-help:hover {
   color: #74c3eb;
 }
+@media screen and (max-width: 1159px) {
+  .footer__content {
+    width: 98%;
+  }
+}

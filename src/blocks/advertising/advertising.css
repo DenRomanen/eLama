@@ -3,7 +3,7 @@
 }
 .advertising__body {
   margin: 0 auto;
-  width: 1160px;
+  max-width: 1160px;
 
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@
   display: flex;
 }
 .advertising__content-paragraph {
-  width: 340px;
+  max-width: 340px;
 }
 .advertising__content-paragraph:nth-child(2) {
   margin: 0 60px;
