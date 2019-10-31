@@ -10,7 +10,7 @@ export const Babel = () => (
         рекламы и&nbsp;расскажем о результатах на понятном языке.
       </p>
       <div className="babel__container-links">
-        <button className="universal-button">Заполнить бриф</button>
+        <button className="button-primary">Заполнить бриф</button>
         <a href="" className="babel__container-links_link">
           Получить консультацию
         </a>

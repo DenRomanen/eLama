@@ -1,4 +1,4 @@
-.universal-button {
+.button-primary {
   padding: 0;
 
   width: 190px;
@@ -14,7 +14,7 @@
   color: #ffffff;
   background-color: #03973d;
 }
-.universal-button:hover {
+.button-primary:hover {
   background-color: #6ce49c;
   cursor: pointer;
 }
