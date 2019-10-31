@@ -11,7 +11,7 @@ export const Stock = () => (
         <h3 className="stock__container-title">
           Бесплатная стартовая кампания
         </h3>
-        <button className="universal-button">Заполнить бриф</button>
+        <button className="button-primary">Заполнить бриф</button>
       </div>
       <img src={arrow} alt="" className="stock__image-arrow" />
       <p className="stock__text">

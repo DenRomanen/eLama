@@ -2,8 +2,8 @@ import React from "react";
 
 import "./footer.css";
 
-import { FooterContent } from "./footer__content/footer__content";
-import { FooterContacts } from "./footer__contacts/footer__contacts";
+import { FooterContent } from "./footer__content/Footer__content";
+import { FooterContacts } from "./footer__contacts/Footer__contacts";
 
 export const Footer = () => (
   <section className="footer">

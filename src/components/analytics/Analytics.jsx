@@ -1,6 +1,6 @@
 import React from "react";
 
-import amg1 from "../../../images/Macbook-Pro-&-iMac-Mockup-Template34.png";
+import amg1 from "../../../images/macbookPro.png";
 import "./analytics.css";
 
 export const Analytics = () => (
@@ -15,7 +15,7 @@ export const Analytics = () => (
         системами, чтобы вы получали правильные данные
       </p>
       <div className="analytics__container-liks">
-        <button className="universal-button">Заполнить бриф</button>
+        <button className="button-primary">Заполнить бриф</button>
         <a href="" className="analytics__container-links_link">
           Получить консультацию
         </a>

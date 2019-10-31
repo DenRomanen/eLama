@@ -1,8 +1,8 @@
 import React from "react";
 
-import img1 from "../../../images/004-imac.png";
-import img2 from "../../../images/006-student.png";
-import img3 from "../../../images/002-stats.png";
+import img1 from "../../../images/imac.png";
+import img2 from "../../../images/student.png";
+import img3 from "../../../images/stats.png";
 
 import "./advertising.css";
 
