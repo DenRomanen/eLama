@@ -1,0 +1,1007 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 500";
+  src: url("/MuseoSansCyrl-500.06ba12d7.eot");
+  src: local("./fonts/MuseoSansCyrl-500"),
+    url("/MuseoSansCyrl-500.06ba12d7.eot?#iefix") format("embedded-opentype"),
+    url("/MuseoSansCyrl-500.c6815b92.woff") format("woff"),
+    url("/MuseoSansCyrl-500.f0821d4e.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 300";
+  src: url("/MuseoSansCyrl-300Italic.12e6068e.eot");
+  src: local("./fonts/MuseoSansCyrl-300Italic"),
+    url("/MuseoSansCyrl-300Italic.12e6068e.eot?#iefix")
+      format("embedded-opentype"),
+    url("/MuseoSansCyrl-300Italic.74b2673d.woff") format("woff"),
+    url("/MuseoSansCyrl-300Italic.b80fc111.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 500";
+  src: url("/MuseoSansCyrl-500Italic.ba5ddcc1.eot");
+  src: local("MuseoSansCyrl-500Italic"),
+    url("/MuseoSansCyrl-500Italic.ba5ddcc1.eot?#iefix")
+      format("embedded-opentype"),
+    url("/MuseoSansCyrl-500Italic.7867412b.woff") format("woff"),
+    url("/MuseoSansCyrl-500Italic.d2927cea.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 900";
+  src: url("/MuseoSansCyrl-900.9e2479ce.eot");
+  src: local("./fonts/MuseoSansCyrl-900"),
+    url("/MuseoSansCyrl-900.9e2479ce.eot?#iefix") format("embedded-opentype"),
+    url("/MuseoSansCyrl-900.efc33d57.woff") format("woff"),
+    url("/MuseoSansCyrl-900.66468f28.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 700";
+  src: url("/MuseoSansCyrl-700.3608037f.eot");
+  src: local("./fonts/MuseoSansCyrl-700"),
+    url("/MuseoSansCyrl-700.3608037f.eot?#iefix") format("embedded-opentype"),
+    url("/MuseoSansCyrl-700.d3924558.woff") format("woff"),
+    url("/MuseoSansCyrl-700.945b228b.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 700";
+  src: url("/MuseoSansCyrl-700Italic.53ce7852.eot");
+  src: local("./fonts/MuseoSansCyrl-700Italic"),
+    url("/MuseoSansCyrl-700Italic.53ce7852.eot?#iefix")
+      format("embedded-opentype"),
+    url("/MuseoSansCyrl-700Italic.5a76bd46.woff") format("woff"),
+    url("/MuseoSansCyrl-700Italic.66408327.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 300";
+  src: url("/MuseoSansCyrl-300.9ec08233.eot");
+  src: local("./fonts/MuseoSansCyrl-300"),
+    url("/MuseoSansCyrl-300.9ec08233.eot?#iefix") format("embedded-opentype"),
+    url("/MuseoSansCyrl-300.ca5741fd.woff") format("woff"),
+    url("/MuseoSansCyrl-300.38334739.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 100";
+  src: url("/MuseoSansCyrl-100.dfe2c38c.eot");
+  src: local("./fonts/MuseoSansCyrl-100"),
+    url("/MuseoSansCyrl-100.dfe2c38c.eot?#iefix") format("embedded-opentype"),
+    url("/MuseoSansCyrl-100.7f19c622.woff") format("woff"),
+    url("/MuseoSansCyrl-100.798613cc.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 100";
+  src: url("/MuseoSansCyrl-100Italic.f7cb6340.eot");
+  src: local("./fonts/MuseoSansCyrl-100Italic"),
+    url("/MuseoSansCyrl-100Italic.f7cb6340.eot?#iefix")
+      format("embedded-opentype"),
+    url("/MuseoSansCyrl-100Italic.8c357459.woff") format("woff"),
+    url("/MuseoSansCyrl-100Italic.8c7a52b1.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 900";
+  src: url("/MuseoSansCyrl-900Italic.860a1a81.eot");
+  src: local("./fonts/Museo Sans Cyrl 900 Italic"),
+    local("MuseoSansCyrl-900Italic"),
+    url("/MuseoSansCyrl-900Italic.860a1a81.eot?#iefix")
+      format("embedded-opentype"),
+    url("/MuseoSansCyrl-900Italic.8d51693c.woff") format("woff"),
+    url("/MuseoSansCyrl-900Italic.1bddd3dc.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+#body {
+  background-color: #e5e5e5;
+  font-family: "Museo Sans Cyrl 300";
+}
+
+.button-primary {
+  padding: 0;
+
+  width: 190px;
+  height: 60px;
+
+  border: none;
+  border-radius: 50px;
+
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #ffffff;
+  background-color: #03973d;
+}
+.button-primary:hover {
+  background-color: #6ce49c;
+  cursor: pointer;
+}
+
+.header {
+  font-family: "Museo Sans Cyrl 500";
+}
+.header__body {
+  margin: 0 auto;
+
+  max-width: 1160px;
+  height: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  width: 122px;
+  height: 40px;
+  background-image: url("/logo.6023b87e.png");
+}
+.header__links {
+  padding-right: 80px;
+  width: 43%;
+
+  display: flex;
+  justify-content: space-between;
+}
+.header__links-text:hover {
+  color: #039be6;
+}
+.header__links-text {
+  text-decoration: none;
+
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #1d1d39;
+}
+
+.header__links-text:last-child {
+  width: 212px;
+
+  color: #039be6;
+}
+
+.header__button {
+  padding: 0;
+
+  width: 100px;
+  height: 40px;
+
+  border: none;
+  border-radius: 50px;
+
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #ffffff;
+  background-color: #039be6;
+}
+.header__button:hover {
+  background-color: #6ebbe2;
+  cursor: pointer;
+}
+
+.title {
+  height: 360px;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: #f2f3f8;
+}
+.title__text {
+  padding-top: 80px;
+
+  width: 590px;
+
+  font-size: 36px;
+  line-height: 48px;
+
+  text-align: center;
+  color: #1d1d39;
+}
+
+.babel {
+  margin: -80px auto 0 auto;
+  width: 770px;
+  height: 175px;
+
+  position: relative;
+
+  display: flex;
+  align-items: flex-end;
+
+  z-index: 2;
+}
+.babel__container {
+  margin-left: 40px;
+  width: 95%;
+  height: 175px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #ffffff;
+
+  border-radius: 5px;
+  box-shadow: 0 0.8rem 2.4rem rgba(29, 29, 57, 0.2);
+}
+
+.babel__poligon {
+  width: 5%;
+  height: 5px;
+
+  border-radius: 10px;
+  box-shadow: 0 0.8rem 2.4rem rgba(29, 29, 57, 0.2);
+}
+.babel__poligon::after {
+  content: "";
+  position: absolute;
+
+  width: 44px;
+  height: 38px;
+
+  right: 0px;
+  bottom: 0px;
+
+  background-image: url("/polygon.c16a406c.png");
+  z-index: 3;
+}
+
+.babel__container-text {
+  width: 58%;
+  padding-left: 30px;
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 16px;
+  line-height: 28px;
+}
+.babel__container-links {
+  height: 67%;
+
+  padding-right: 35px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.babel__container-links_link {
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #039be6;
+
+  text-decoration: none;
+}
+
+.advertising {
+  margin: -117px 0 0 0;
+}
+.advertising__body {
+  margin: 0 auto;
+  max-width: 1160px;
+
+  display: flex;
+  flex-direction: column;
+}
+.advertising__title {
+  margin-top: 295px;
+
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.45px;
+
+  color: #1d1d39;
+}
+.advertising__content {
+  margin: 57px 0 0 0;
+
+  display: flex;
+}
+.advertising__content-paragraph {
+  max-width: 340px;
+}
+.advertising__content-paragraph:nth-child(2) {
+  margin: 0 60px;
+}
+.advertising__content-paragraph_subtitle {
+  margin: 30px 0 0 0;
+
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #1d1d39;
+}
+.advertising__content-paragraph_text {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.analytics {
+  margin: 182px auto 180px auto;
+
+  max-width: 1160px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.analytics__img {
+  width: 395px;
+  height: 350px;
+}
+.analytics__container {
+  max-width: 559px;
+
+  display: flex;
+  flex-direction: column;
+}
+.analytics__container-title {
+  margin: 0;
+
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.45;
+
+  color: #1d1d39;
+}
+.analytics__container-text {
+  margin-top: 60px;
+  max-width: 473px;
+
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #333333;
+}
+.analytics__container-liks {
+  margin-top: 25px;
+}
+.analytics__container-links_link {
+  margin-left: 50px;
+
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #039be6;
+
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .analytics__container-title {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+
+.stock {
+  height: 435px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #f2f3f8;
+}
+.stock__body {
+  margin: 0 auto;
+
+  width: 1160px;
+  height: 300px;
+
+  display: flex;
+  align-items: center;
+}
+.stock__container {
+  width: 365px;
+
+  display: flex;
+  flex-direction: column;
+}
+.stock__container-title {
+  margin: 0px 0 40px 0;
+
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.35px;
+
+  color: #1d1d39;
+}
+.stock__image-arrow {
+  margin: 0 20px 210px -140px;
+}
+.stock__text {
+  max-width: 285px;
+
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #333333;
+}
+.stock__text:last-child {
+  margin-left: 42px;
+  width: 240px;
+}
+
+.footer {
+  height: 314px;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #222a35;
+}
+
+.footer__content {
+  margin: 0 auto;
+
+  width: 1160px;
+  height: 140px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid rgba(196, 196, 196, 0.1);
+}
+.footer__content-links {
+  display: flex;
+}
+.footer__content-link {
+  margin-left: 96px;
+
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #039be6;
+
+  text-decoration: none;
+}
+.footer__content-link:hover {
+  color: #74c3eb;
+}
+.footer__content-link:first-child {
+  margin: 0;
+}
+.footer__content-help {
+  margin-right: 190px;
+
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #039be6;
+
+  text-decoration: none;
+}
+.footer__content-help:after {
+  content: "";
+  position: relative;
+  top: -0.5rem;
+  right: -0.35rem;
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+
+  background-image: url("/rectangle.7b1de8f9.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.footer__content-help:hover {
+  color: #74c3eb;
+}
+@media screen and (max-width: 1159px) {
+  .footer__content {
+    width: 98%;
+  }
+}
+
+.footer__contacts {
+  margin: 41px auto 0 auto;
+  width: 1160px;
+
+  display: flex;
+  flex-direction: column;
+}
+.footer__contacts-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__contacts-links-city {
+  display: flex;
+  flex-direction: row;
+}
+.footer__contacts-links_home {
+  width: 50px;
+  height: 50px;
+
+  background-image: url("/logo_color.85c583e1.png");
+}
+.footer__contacts-links_moskva {
+  margin: 0 0 0 50px;
+  width: 150px;
+
+  display: flex;
+  flex-direction: column;
+}
+.footer__contacts-links_moskva-tel {
+  margin: 0;
+  font-size: 16px;
+  line-height: 28px;
+
+  text-decoration: none;
+  color: #f4f4f4;
+}
+.footer__contacts-links_moskva-name {
+  margin: 0;
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #828282;
+}
+.footer__contacts-links_email {
+  font-size: 14px;
+  line-height: 26px;
+  text-decoration: none;
+
+  color: #00b3ff;
+}
+
+.footer__contacts-links_email:hover {
+  color: #79d3fa;
+}
+@media screen and (max-width: 1159px) {
+  .footer__contacts {
+    width: 90%;
+  }
+  .footer__contacts-links_moskva {
+    margin-left: 30px;
+  }
+  .footer__contacts-links_moskva-tel {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.footer__contacts-links-icons {
+  width: 240px;
+  height: 40px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__contacts-links_web {
+  margin: 0;
+  width: 25px;
+  height: 25px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.vk {
+  background-image: url("/vk.d18ec587.png");
+}
+.fk {
+  background-image: url("/fk.7de3b692.png");
+}
+.tw {
+  background-image: url("/twiter.94abfa70.png");
+}
+.you {
+  background-image: url("/youtube.1aabfb67.png");
+}
+.tech {
+  background-image: url("/slack.068baedd.png");
+}
+.feed {
+  background-image: url("/rss.e6567893.png");
+}
+
+.footer__contacts-data {
+  margin: 35px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__contacts-data {
+  font-size: 13px;
+  line-height: 24px;
+
+  color: #484b50;
+}
+.footer__contacts-data_link {
+  font-size: 13px;
+  line-height: 24px;
+  text-decoration: none;
+
+  color: #00b3ff;
+}
+.footer__contacts-data_link:hover {
+  color: #79d3fa;
+}
+
+
+/*# sourceMappingURL=/src.6ebfba02.css.map */
