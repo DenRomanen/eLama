@@ -1,6 +1,6 @@
 # eLama
 Верстка по макету 
 
-технологии: reacrt.
+технологии: react.
 
-https://denromanen.github.io/eLama/.
+
